@@ -67,9 +67,21 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
 }
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 40px
+}
+    header nav a{
+        text-decoration: none;
+        color: black;
+        margin-left: 70px;
+    }
 
 .top-content {
     display: flex;
@@ -78,7 +90,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img{
+    margin-bottom: 25px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
